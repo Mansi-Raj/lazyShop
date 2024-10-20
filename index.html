@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LazyShop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <a href="#" class="logo">LazyShop</a>
+    <ul class="nav-links">
+      <li><a href="#">Products</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="cart">
+      <a href="#">🛒(<span id="cart-count">0</span>)</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Find Your Best Products</h1>
+      <p>Explore our latest collections at discounted prices</p>
+      <a href="#products" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Product Section -->
+  <section id="products" class="products-section">
+    <h2>Featured Products</h2>
+    <div class="products-container" id="product-list">
+      <!-- Products will be inserted dynamically here -->
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
